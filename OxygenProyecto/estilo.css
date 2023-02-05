@@ -1,0 +1,42 @@
+.contenedor{
+    width: 900px;
+    height: 500px;
+    margin: auto;
+    background-color: purple;
+    color: white;
+    border: 5px;
+    text-align: center;
+    font-size: 15px;
+    
+}
+.desplegable{
+    margin: 15px;
+
+}
+
+select{
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 30px;
+    color: white;
+    background-color: purple;
+    text-align: left;
+    
+}
+input{
+    text-align: right;
+    background-color: transparent;
+    border-color: transparent;
+}
+.resultado{
+   margin: 10px;
+}
+h5{
+    position: absolute;
+}
+button{
+    position: relative;
+    background-color: purple;
+    border-color: transparent;
+    text-align: left;
+}

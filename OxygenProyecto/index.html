@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de unidades</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div class="contenedor">
+        <h2>Convert</h2>
+        <div class="desplegable">
+            <select name="unidad1" id="unidad1">
+                <option value="km->miles">km->miles</option>
+                <option value="miles->km">miles->km</option>
+                <option value="pies->metros">pies->metros</option>
+                <option value="metros->pies">metros->pies</option>
+                <option value="centimetros->pulgadas">centimetros->pulgadas</option>
+                <option value="pulgadas->centimetros">pulgadas->centimetros</option>
+            </select>
+            <button onclick="mantener()"><img src="felchasD1.png"/></button>
+            <input type="decimal" id="valor" placeholder="Valor">
+        </div>
+        
+        <div class="resultado" id="resultado">
+            <h5>--</h5>
+        </div>
+        <button onclick="guardar()"><img src="corazon1.png"/></button>
+        <script src="script.js"></script>
+    </div>
+    <div class="contenedor2">
+        <table class="tablaMedidas" id="tablaMedidas">
+        </table>
+    </div>
+</body>
+</html>
